@@ -1,0 +1,82 @@
+.titulo{
+    background-color: #EEA388;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  table{
+    margin-top: 0px;
+    width: 100%;
+  }
+  #receso{
+    background-color: #E86767;
+    color: white;
+  }
+  /*---------------------------------------------------MATERIAS*/
+  .Taller::after{
+    text-align: center;
+    content:"Taller de Investigación 1";
+    padding: inherit;
+  }
+  .Web::after{
+    text-align: center;
+    content:"Programacion Web";
+    padding: inherit;
+  }
+  .Redes::after{
+    text-align: center;
+    content:"Conmutacion y Enrutamiento de Redes";
+    padding: inherit;
+  }
+  .Auto::after{
+    text-align: center;
+    content:"Lenguajes y Automatas 2";
+    padding: inherit;
+  }
+  .Sistemas::after{
+    text-align: center;
+    content:"Sistemas Programables 1";
+    padding: inherit;
+  }
+  .Programacion::after{
+    text-align: center;
+    content:"Programacion Paralela y Concurrente";
+    padding: inherit;
+  }
+  
+  /*----------------------------------------------------------------DOCENTES*/
+  .Jorge::after{
+    text-align: center;
+    content:"Dr. Jorge Manjarrez";
+    padding:inherit;
+  }
+  .Ricardo::after{
+    text-align: center;
+    content:"ISC Ricardo Saldivar Quezada";
+    padding:inherit;
+  }
+  .Cesar::after{
+    text-align: center;
+    content:"MGTI Cesar Landeros Soriano";
+    padding:inherit;
+  }
+  .Salvador::after{
+    text-align: center;
+    content:"ISC Salvador Acevedo Sandoval";
+    padding:inherit;
+  }
+  .Vanessa::after{
+    text-align: center;
+    content:"MCCC Vanessa Saldivar Quezada";
+    padding:inherit;
+  }
+  
+  td{
+    text-align: center;
+  }
+  footer{
+    background-color: #EEA388;
+    text-align: center;
+    font-size: 15px;
+  }
